@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '1.0'
+VERSION = '1.1'
 PACKAGE_NAME = 'hw_package123'
 AUTHOR = 'dwarakravikumar'
 AUTHOR_EMAIL = ''
@@ -14,10 +14,12 @@ DESCRIPTION = 'Describe your package in one sentence'
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
-INSTALL_REQUIRES = [
-      'numpy',
-      'pandas'
-]
+#INSTALL_REQUIRES = [
+#      'numpy',
+#      'pandas'
+#]
+
+INSTALL_REQUIRES = []
 
 setup(name=PACKAGE_NAME,
       version=VERSION,
