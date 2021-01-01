@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'your_package'
-AUTHOR = 'You'
-AUTHOR_EMAIL = 'you@email.com'
-URL = 'https://github.com/you/your_package'
+PACKAGE_NAME = 'hw_package123'
+AUTHOR = 'dwarakravikumar'
+AUTHOR_EMAIL = ''
+URL = 'https://github.com/dwarakravikumar/hw_package123'
 
 LICENSE = 'Apache License 2.0'
 DESCRIPTION = 'Describe your package in one sentence'
