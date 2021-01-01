@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.0'
+VERSION = '1.0'
 PACKAGE_NAME = 'hw_package123'
 AUTHOR = 'dwarakravikumar'
 AUTHOR_EMAIL = ''
